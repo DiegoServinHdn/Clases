@@ -7,6 +7,6 @@
 
 ## 2. Leer archivo
 - Leer el archivo descargado correctamente
-- Parsear nombre de columnas de PascalCase a snake_case
+- Parsear nombre de columnas de "PascalCase" a "snake_case"
 
 ## 3. Guardar archivo como parquet
