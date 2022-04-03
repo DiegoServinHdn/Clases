@@ -44,8 +44,7 @@ def save_dictionary_to_parquet(tabla_note:dict)->dict:
     output_folder = "../parquets"
     file_basename = "theguardian"
     time_creation = CommonUtils.get_current_time(timestamp)
-    parquet_file = tabla_note.to_parquet(f"{output_folder}/{file_basename}.{time_creation}.parquet")
-    return parquet_file
+    tabla_note.to_parquet(f"{output_folder}/{file_basename}.{time_creation}.parquet")
 
 
 def read_parquet_file(parquet_file):
