@@ -1,5 +1,0 @@
-pandas==1.2.5
-openpyxl==3.0.7
-pyarrow==6.0.0
-xlrd
-requests==2.27.1
